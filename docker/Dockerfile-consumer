@@ -1,0 +1,6 @@
+FROM python:3.10.5-alpine
+RUN mkdir src
+WORKDIR src
+RUN pip install requests
+COPY src/consumer/consumer.py .
+CMD ["python", "-u", "consumer.py"]

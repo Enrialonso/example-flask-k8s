@@ -1,0 +1,7 @@
+.gitignore
+docs
+manifest
+docker
+.venv
+Makefile
+README.md
